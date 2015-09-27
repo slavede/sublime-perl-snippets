@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+grep \$_ eq ${1:match}, @${2:array}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>perl-grep-array</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

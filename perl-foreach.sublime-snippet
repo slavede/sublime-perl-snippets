@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+foreach my ${1:variable} (${2:collection}) {
+	${3:body}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>perl-foreach</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
